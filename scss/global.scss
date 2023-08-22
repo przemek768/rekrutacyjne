@@ -1,0 +1,67 @@
+$primary: #111111;
+$text: 'Inter', sans-serif;
+$textbig: 'Montserrat', sans-serif;
+
+@import "menu/menu";
+@import "home";
+
+#footer{
+  background: #111111;
+  padding: 80px 256px;
+  .text-footer{
+    color: #F5F0EC;
+    font-family: $text;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -1%;
+    padding-right: 24px;
+  }
+  .btn{
+    border-radius: 200px;
+    background: #1B5B31;
+    border: 1px solid #1B5B31;
+    font-family: $text;
+    font-size: 16px;
+    padding: 12px 22px 14px;
+    color: #F5F0EC;
+  }
+  .footer-spacing{
+    color: #F5F0EC;
+    background: #F5F0EC;
+    height: 1.5px;
+    margin-top: 62px;
+    margin-bottom: 62px;
+  }
+  .footer-links{
+    max-width: 379px;
+  }
+  .footer-link{
+    color: #ffffff;
+    font-family: $text;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -1%;
+    text-decoration: none;
+  }
+  .footer-contact-data{
+    max-width: 293px;
+    margin-left: auto;
+    .footer-contact-text{
+      color: #ffffff;
+      font-family: $text;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: -1%;
+    }
+  }
+  .end-footer{
+    margin-top: 120px;
+    .footer-text{
+      color: #F5F0EC;
+      font-family: $text;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: -1%;
+    }
+  }
+}
